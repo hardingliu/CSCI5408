@@ -1,0 +1,7 @@
+#!/bin/bash
+
+curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/stops/record/_bulk?pretty' --data-binary @stops.json
+
+curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/stoptimes/record/_bulk?pretty' --data-binary @stoptimes.json
+
+curl -H 'Content-Type: application/x-ndjson' -XPOST 'localhost:9200/trips/record/_bulk?pretty' --data-binary @trips.json

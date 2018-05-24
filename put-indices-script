@@ -1,0 +1,47 @@
+#!/bin/bash
+
+curl -X PUT "localhost:9200/stops" -H 'Content-Type: application/json' -d'
+{
+    "mappings" : {
+        "record" : {
+            "properties" : {
+                "stop_id" : { "type" : "keyword"},
+                "name_stop" : {"type" : "keyword"},
+                "lat" : {"type" : "text"},
+                "lon" : {"type" : "text"}
+            }
+        }
+    }
+}
+'
+curl -X PUT "localhost:9200/stoptimes" -H 'Content-Type: application/json' -d'
+{
+    "mappings" : {
+        "record" : {
+            "properties" : {
+                "trip_id" : { "type" : "keyword"},
+                "arrival_time" : {"type" : "date", "format": "hour_minute_second"},
+                "departure_time" : {"type" : "date", "format": "hour_minute_second"},
+                "stop_id" : {"type" : "keyword"},
+                "stop_sequence" : {"type" : "keyword"}
+            }
+        }
+    }
+}
+'
+curl -X PUT "localhost:9200/trips" -H 'Content-Type: application/json' -d'
+{
+    "mappings" : {
+        "record" : {
+            "properties" : {
+                "block_id" : { "type" : "keyword"},
+                "route_id" : {"type" : "keyword"},
+                "trip_headsign" : {"type" : "keyword"},
+                "service_id" : {"type" : "keyword"},
+                "shape_id" : {"type" : "keyword"},
+                "trip_id" : {"type" : "keyword"}
+            }
+        }
+    }
+}
+'
