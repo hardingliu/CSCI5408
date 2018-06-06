@@ -23,7 +23,7 @@ class Tweet(DocType):
         index = 'tweet-sentiment'
 
     def save(self, ** kwargs):
-        self.lines = len(self.body.split())
+        self.lines = len(self.tweet.split())
         return super(Tweet, self).save(** kwargs)
 
 
@@ -49,5 +49,5 @@ class ImportIntoElasticsearch:
 
 
 if __name__ == '__main__':
-    elasticsearch_importer = ImportIntoElasticsearch('./hahah.csv')
+    elasticsearch_importer = ImportIntoElasticsearch('./tweets_sentiment.csv')
     elasticsearch_importer.load_data()

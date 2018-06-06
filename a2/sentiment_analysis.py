@@ -2,21 +2,35 @@
 Author: Zongming Liu (zongming.liu@dal.ca)
 '''
 
+# https://www.nltk.org/_modules/nltk/sentiment/vader.html
+# https://github.com/cjhutto/vaderSentiment
+
 import sys
 import csv
 from os.path import exists
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-from nltk import tokenize
+from nltk import word_tokenize
 
 
 class SentimentAnalysis:
-    def __init__(self, input_file, output_file):
-        if exists(input_file):
+    def __init__(self, input_file, output_file, lexicon_file):
+        if exists(input_file) and exists(lexicon_file):
             self.input_file = input_file
             self.output_file = output_file
-        else:
-            msg = input_file + ' does not exist!'
+            self.lexicon_file = lexicon_file
+        elif not exists(input_file):
+            msg = input_file + " does not exist"
             sys.exit(msg)
+        elif not exists(lexicon_file):
+            msg = lexicon_file + " does not exist"
+            sys.exit(msg)
+
+    def load_lexicon(self):
+        lexicon_dict = {}
+        with open(self.lexicon_file, 'r') as lexicon_file:
+            csv_reader = csv.reader(lexicon_file, delimiter='\t')
+            for row in csv_reader:
+                lexicon_dict[row[0]] = float(row[1])
+        return lexicon_dict
 
     def read_analyze_write(self):
         sentences = []
@@ -25,25 +39,22 @@ class SentimentAnalysis:
             for row in csv_reader:
                 for s in row:
                     sentences.append(s.rstrip())
-            sentences.pop(0)
-        # http://www.nltk.org/howto/sentiment.html
-        analyzer = SentimentIntensityAnalyzer()
+            # sentences.pop(0)
+        lexicon_dict = self.load_lexicon()
         with open(self.output_file, 'w') as output_csv_file:
             csv_writer = csv.writer(output_csv_file)
             csv_writer.writerow(
-                ['Tweet', 'Positive Score', 'Negative Score', 'Neutral Score',
-                 'Sentiment Score', 'Sentiment'])
+                ['Tweet', 'Sentiment Score', 'Sentiment'])
             for sentence in sentences:
-                ss = analyzer.polarity_scores(sentence)
+                tokens = word_tokenize(sentence)
                 row = []
                 row.append(sentence)
-                positive_score = ss['pos']
-                row.append(positive_score)
-                negative_score = ss['neg']
-                row.append(negative_score)
-                neutral_score = ss['neu']
-                row.append(neutral_score)
-                sentiment_score = ss['compound']
+                sentiment_score = 0
+                for token in tokens:
+                    if token in lexicon_dict:
+                        sentiment_score += lexicon_dict[token]
+                num_tokens = len(tokens)
+                sentiment_score = sentiment_score / num_tokens
                 row.append(sentiment_score)
                 if sentiment_score > 0:
                     sentiment = 'positive'
@@ -57,5 +68,6 @@ class SentimentAnalysis:
 
 if __name__ == '__main__':
     sentiment_analysis = SentimentAnalysis(
-        './tweets.csv', './tweets_sentiment.csv')
+        './clean.csv', './tweets_sentiment.csv',
+        './vader_lexicon/vader_lexicon.txt')
     sentiment_analysis.read_analyze_write()
