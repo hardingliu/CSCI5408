@@ -5,6 +5,13 @@ Zongming Liu - B00784897
 
 David Cui - B00788648
 
+## Scripts
+**tweet_extracter.py** - The python script to collect data from Twitter. It saves the data to a csv file named tweets.csv
+
+**sentiment_analysis.py** - The python script to perform sentiment analysis on the Twitter data we collected. It reads Twitter data from the tweets.csv, and writes the sentiment analysis results to a csv file named tweets_sentiment.csv
+
+**import_into_elasticsearch.py** - The python script to load data of sentiment analysis on Twitter data, and import the data into Elasticsearch.
+
 ## References
 The dataset for sentiment analysis comes from here:
 
