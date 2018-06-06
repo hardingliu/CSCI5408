@@ -2,7 +2,6 @@ import tweepy
 import time
 import json
 import csv
-import pandas
 
 '''
 Author: David Cui
@@ -30,26 +29,21 @@ def get_tweets(query, count):
 
     return tweets
 
+#function for cleaning tweet text
+def clean_text(text):
+    text.replace('[^a-zA-Z0-9\' ]','')
+
+    return text
+	
 #inputs for get_tweets function
-#querying WWDC WWDC18 WWDC2018 excluding retweets and replies
+#querying WWDC excluding retweets and replies
 query = "#WWDC -filter:retweets AND -filter:replies"
 tweetNum = 100
 
 #get tweets with API and store in CSV file: tweets.csv
 with open ('tweets.csv', 'w', encoding="utf-8") as outfile:
     writer = csv.writer(outfile)
-    writer.writerow(['id','user','created_at','text'])
+    writer.writerow(['id','user','created_at','full_text','cleaned_full_text'])
     tweets = get_tweets(query, tweetNum)
     for tweet in tweets:
-        writer.writerow([tweet.id_str, tweet.user.screen_name, tweet.created_at, tweet.full_text])
-		
-#data cleaning
-tweets = pandas.read_csv("tweets.csv", encoding="utf-8")
-tweets["text"]=tweets["text"].str.replace('"','')
-tweets["text"]=tweets["text"].str.replace('http[^\s]*',' ')
-tweets["text"]=tweets["text"].str.replace('[\n\r]',' ')
-tweets["text"]=tweets["text"].str.replace('&amp;','and')
-tweets["text"]=tweets["text"].str.replace('â€™','\'')
-tweets["text"]=tweets["text"].str.replace('[^a-zA-Z0-9\' ]','')
-
-tweets["text"].to_csv('clean.csv', encoding="utf-8", index=False)
+        writer.writerow([tweet.id_str, tweet.user.screen_name, tweet.created_at, tweet.full_text, clean_text(tweet.full_text)])
