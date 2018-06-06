@@ -27,3 +27,6 @@ Temporary Items
 
 # Ignore PDF files
 *.pdf
+
+# Ignore anything from JetBrains IDE
+.idea/
