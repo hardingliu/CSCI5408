@@ -36,24 +36,35 @@ class SentimentAnalysis:
         sentences = []
         with open(self.input_file, 'r') as input_csv_file:
             csv_reader = csv.reader(input_csv_file)
+            next(csv_reader)
             for row in csv_reader:
-                for s in row:
-                    sentences.append(s.rstrip())
+                sentence = ''
+                clean_sentence = ''
+                for s in row[-2]:
+                    sentence += s
+                for s in row[-1]:
+                    clean_sentence += s
+                sentence_tuple = (sentence, clean_sentence.rstrip())
+                sentences.append(sentence_tuple)
         lexicon_dict = self.load_lexicon()
         with open(self.output_file, 'w') as output_csv_file:
             csv_writer = csv.writer(output_csv_file)
             csv_writer.writerow(
                 ['Tweet', 'Sentiment Score', 'Sentiment'])
-            for sentence in sentences:
-                tokens = word_tokenize(sentence)
+            for sentence_tuple in sentences:
+                sentence = sentence_tuple[0]
+                clean_sentence = sentence_tuple[1]
+                tokens = word_tokenize(clean_sentence)
                 row = []
                 row.append(sentence)
                 sentiment_score = 0
+                num_valid_tokens = 0
                 for token in tokens:
                     if token in lexicon_dict:
+                        num_valid_tokens += 1
                         sentiment_score += lexicon_dict[token]
-                num_tokens = len(tokens)
-                sentiment_score = sentiment_score / num_tokens
+                if num_valid_tokens > 0:
+                    sentiment_score = sentiment_score / num_valid_tokens
                 row.append(sentiment_score)
                 if sentiment_score > 0:
                     sentiment = 'positive'
@@ -67,6 +78,6 @@ class SentimentAnalysis:
 
 if __name__ == '__main__':
     sentiment_analysis = SentimentAnalysis(
-        './clean.csv', './tweets_sentiment.csv',
+        './tweets.csv', './tweets_sentiment.csv',
         './vader_lexicon/vader_lexicon.txt')
     sentiment_analysis.read_analyze_write()

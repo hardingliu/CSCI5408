@@ -1,180 +1,159 @@
-id,user,created_at,text
-1004407069791797248,thillsman,2018-06-06 16:58:01,About to see @gravicle talk about the new Siri Shortcuts awesomeness. #wwdc
-1004406506517815298,2020Glen,2018-06-06 16:55:46,When the spotlight is gone only the your dark theme remains. #wwdc https://t.co/IT51yT8RbJ
-1004406418282180608,ericwelander,2018-06-06 16:55:25,"Thank you Apple for making #WWDC videos play in Chrome this year. It’s so convenient. 
+id,user,created_at,text,clean_text
+1004455155037884416,kuba_suder,2018-06-06 20:09:05,"Wow, that CreateML demo at State of the Union with training a model to recognize flowers with a few lines of code is seriously some dark magic shit 😳 #wwdc",Wow that CreateML demo at State of the Union with training a model to recognize flowers with a few lines of code is seriously some dark magic shit  wwdc
+1004454641260728320,fsanuy,2018-06-06 20:07:02,New #USDZ 3D support for #AR by #Apple annouced at #WWDC 2018 with some great #Partners like @Sketchfab https://t.co/0YWfwEkStb,New USDZ 3D support for AR by Apple annouced at WWDC 2018 with some great Partners like Sketchfab  
+1004452931154923520,DigitizedHouse,2018-06-06 20:00:15,"Apple #Home app finally arrives on #Mac with macOS #Mojave upgrade, enabling #HomeKit accessory control with #Siri or clicks https://t.co/ymH27eKEgJ #connectedhome #apple #macos #ios12 #smarthome #homeautomation #iot #iMac #MacBook #AppleHomeApp #WWDC #WWDC2018",Apple Home app finally arrives on Mac with macOS Mojave upgrade enabling HomeKit accessory control with Siri or clicks   connectedhome apple macos ios12 smarthome homeautomation iot iMac MacBook AppleHomeApp WWDC WWDC2018
+1004452438751899649,IntegoSecurity,2018-06-06 19:58:17,"#macOSMojave: New Interface Options, Under the Hood Refinements https://t.co/cqrOWXmYqT #Apple #WWDC https://t.co/BFgDVvXu5a",macOSMojave New Interface Options Under the Hood Refinements   Apple WWDC  
+1004452338017292289,sevenxr,2018-06-06 19:57:53,#wwdc archaeology... y’all missing out. #wwdc2018 https://t.co/YMWaIEN7ej,wwdc archaeology yall missing out wwdc2018  
+1004451534493528064,patterson_home,2018-06-06 19:54:42,"Our next workshop will start at 1 pm. ""Don't miss "" Building an iOS App with millions of users -  Scale, Secure, Engage"". #AltConf #WWDC @developerWorks",Our next workshop will start at 1 pm Don't miss  Building an iOS App with millions of users   Scale Secure Engage AltConf WWDC developerWorks
+1004450152872964096,Catfish_Man,2018-06-06 19:49:12,"Heading back to the office for now; labs were great, helped some folks out, and got a great testcase for a previously unknown crash. See y’all at the Foundation lab tomorrow afternoon 😊 #wwdc",Heading back to the office for now labs were great helped some folks out and got a great testcase for a previously unknown crash See yall at the Foundation lab tomorrow afternoon  wwdc
+1004450143582740481,BlueBite,2018-06-06 19:49:10,"Blue Bite CPO Paul Knight recaps #WWDC and reveals whether his predictions were right. Looks like he's not far off... 
+https://t.co/vHICfeZVP4",Blue Bite CPO Paul Knight recaps WWDC and reveals whether his predictions were right Looks like he's not far off   
+1004449652203089921,nicksak,2018-06-06 19:47:13,"AR demo at the Game Room at #WWDC18
+#augmentedreality #ar #wwdc #wwdc2018 https://t.co/ZoXi1kWqtc",AR demo at the Game Room at WWDC18 augmentedreality ar wwdc wwdc2018  
+1004448902756487168,kundandewani,2018-06-06 19:44:14,"Hey @rajavijayaraman , many congratulations for ur app recognition. Tumhe toh reward mil gaya, now make ur app free for sometime 😉 “khushiyan baatne sey badhti hai dost !” #Calzy 3 #India #WWDC #love #calculator",Hey rajavijayaraman  many congratulations for ur app recognition Tumhe toh reward mil gaya now make ur app free for sometime  khushiyan baatne sey badhti hai dost  Calzy 3 India WWDC love calculator
+1004448730471378944,etanowitz,2018-06-06 19:43:33,"My first time at #WWDC. Who else is here? (@ WWDC 2018 in San Jose, CA) https://t.co/TAHgHB2hhE https://t.co/PMrCtFHP0l",My first time at WWDC Who else is here  WWDC 2018 in San Jose CA    
+1004448670631116800,michalcodes,2018-06-06 19:43:19,"Is it just me or is #iOS12 beta 1 actually perform better than #iOS11.4?! For the first year ever, I may retract my wait statement for #iOSbeta. #WWDC #WWDC2018 #WWDC18 #apple #iPhone #iOS #keynote",Is it just me or is iOS12 beta 1 actually perform better than iOS114 For the first year ever I may retract my wait statement for iOSbeta WWDC WWDC2018 WWDC18 apple iPhone iOS keynote
+1004448501709856769,JO_ADAM,2018-06-06 19:42:39,"WWDC app too slow for streaming/downloading?
+#wwdc #dubdub",WWDC app too slow for streamingdownloading wwdc dubdub
+1004445173449777153,andytrice,2018-06-06 19:29:25,"At #WWDC and want to learn a little about scalable back-ends for you iOS apps?  Come next door to #AltConf and check out @jkingoliver &amp; my saession ""Scalable iOS Applications with Serverless and Kubernetes"" Thursday at 11AM!",At WWDC and want to learn a little about scalable backends for you iOS apps  Come next door to AltConf and check out jkingoliver and my saession Scalable iOS Applications with Serverless and Kubernetes Thursday at 11AM
+1004444760810061824,russshanahan,2018-06-06 19:27:47,"Wow, this will completely change how I use TestFlight. #wwdc https://t.co/jjdo5lQE76",Wow this will completely change how I use TestFlight wwdc  
+1004441664189026305,TheYosef95,2018-06-06 19:15:29,apple has just created the perfect penis measurement tool #WWDC18 #WWDC #WWDC2018,apple has just created the perfect penis measurement tool WWDC18 WWDC WWDC2018
+1004441481598259200,evankirstel,2018-06-06 19:14:45,Time to start building your own emoji #iOS12 #apple #WWDC https://t.co/3ZlOAGh0tW,Time to start building your own emoji iOS12 apple WWDC  
+1004441369790767104,steipete,2018-06-06 19:14:18,Don’t forget the lunchtime sessions - they are not recorded! #WWDC https://t.co/yP1vM4pnui,Dont forget the lunchtime sessions  they are not recorded WWDC  
+1004441067897290752,AydenGebranWWDC,2018-06-06 19:13:06,What's your favourite colour? #wwdc https://t.co/1hdBPZbbzu,What's your favourite colour wwdc  
+1004441039342657536,SergioG_MX,2018-06-06 19:13:00,"Retweeted Fender (@Fender):
 
-(Also would love Safari if you could add profiles)"
-1004406359599734785,kedarv,2018-06-06 16:55:11,The WWDC banner animation needs to be made available as a screen saver #WWDC
-1004406358706409473,addmagenta,2018-06-06 16:55:11,"Heads up Apple fans - the company held its annual #WWDC earlier this week. If you missed the keynote, here's a 14 minute recap to fill you in on all the big announcements. https://t.co/yNsWrpAHP5"
-1004406022365016064,BenchR,2018-06-06 16:53:51,I would also like to recommend some other sessions my team is participating it that should help you get a better understanding of what the build system is doing and how it can help you to reduce the time your machine is building your product. #WWDC #WWDC18 #WWDC2018
-1004405932930027521,TtechMania1,2018-06-06 16:53:30,"I’ve decided to postpone the WWDC livestream for later this week as I am trying to get my friend to join me, make it a big conversation between us and you all, as soon as I have more details I will let you know #wwdc #ytlive #conversationwithfriends"
-1004405769578541056,edvilme,2018-06-06 16:52:51,"#100DaysOfCode Day 16:
-- Some great sessions scheduled for #WWDC
-- Designed and coded profile components for @ManGoAppOficial V.2.0 https://t.co/cInDtLeEDu"
-1004405736128966658,BenchR,2018-06-06 16:52:43,"I'll staff in the Custom Instruments Lab today at 3pm. Come by and ask your questions about how to create instruments to get a better understanding of your apps!
-There is also a session tomorrow about this topic in Hall 1 at 11am. #WWDC18 #WWDC2018 #WWDC"
-1004405467706093568,gtsifrikas,2018-06-06 16:51:39,I couldn’t resist 🙈 #WWDC https://t.co/kYWf1hOAzc
-1004405142760742912,AlexandrePhNM,2018-06-06 16:50:21,#WWDCScholars  at #WWDC  with Apple design awards winner @kenwongart @miss_psyduck https://t.co/qKkoVu7KmB
-1004404771644555265,CryptoCurrent,2018-06-06 16:48:53,#WWDC 2018: #Apple Documents #Cryptocurrency Support https://t.co/4UfZ4CNfQJ @StrategicCoin
-1004403968498253824,qcoding,2018-06-06 16:45:41,BTW folks in he Secret Bathroom is next to the App Store Lab #WWDC
-1004403901620211712,XmasRights,2018-06-06 16:45:25,"The AR Kit badge is mine!!
-#WWDC https://t.co/WUIqJdBC1z"
-1004403874684211201,subdigital,2018-06-06 16:45:19,"En route to the Airport. It was a short week for me but I was so happy to meet so many people and see friends I haven’t seen in years!
+Yesterday you saw the @Apple #WWDC demo featuring the Fender Mod Shop, now go check it out for yourself! (U.S. only) https://t.co/9bVU3Pe1H0 https://t.co/8WvRZsRBof",Retweeted Fender Fender  Yesterday you saw the Apple WWDC demo featuring the Fender Mod Shop now go check it out for yourself US only    
+1004441010137518081,neferwrites,2018-06-06 19:12:53,"I cannot tell you how happy this makes me. 😊
 
-👋🏼
+https://t.co/AuoLjonkYc
 
-#WWDC"
-1004403565501153280,_eliperkins,2018-06-06 16:44:05,"Doing a half day at #WWDC today, before heading up to SF after. Come say hi in Hall 2 towards the front!"
-1004403514783817729,the_gris,2018-06-06 16:43:53,"Still time to grab one of these bad boys! For all you Apple fans out there, original pixelated 'hello' typeface from the first Macintosh launch!  // #apple #WWDC18 #WWDC 
+#GoogleMaps #WWDC #carplay",I cannot tell you how happy this makes me      GoogleMaps WWDC carplay
+1004440626992050178,asmallteapot,2018-06-06 19:11:21,I’ll be at #WWDC this afternoon through Friday! Would love to say hi to my Twitter friends between sessions ☺️,Ill be at WWDC this afternoon through Friday Would love to say hi to my Twitter friends between sessions 
+1004440171494834176,char_fish,2018-06-06 19:09:33,#WWDC18 - 50% complete!! #WWDC,WWDC18  50 complete WWDC
+1004440043048468480,jerols,2018-06-06 19:09:02,Heading to San Pedro square for casual lunch - feel free to join #wwdc,Heading to San Pedro square for casual lunch  feel free to join wwdc
+1004439734234599429,pauljadam,2018-06-06 19:07:48,Designing Web Content for watchOS - #WWDC 2018 - Videos - Apple Developer https://t.co/tmfEsKxJzu,Designing Web Content for watchOS  WWDC 2018  Videos  Apple Developer  
+1004438784736448514,SleekDeals,2018-06-06 19:04:02,"🔥 Lowest Price!
+Apple iPhone 6, Unlocked GSM for $170
 
-https://t.co/QZ4Sc4ryCP https://t.co/1teeD8argd"
-1004403504562298880,hellotjbot,2018-06-06 16:43:51,. @ Thanks for visiting the IBM booth during #Altconf and #WWDC. https://t.co/tQVSRhETKj
-1004403480348553216,hellotjbot,2018-06-06 16:43:45,. @ Thanks for visiting the IBM booth during #Altconf and #WWDC. https://t.co/H4VNGQiam9
-1004403139078864898,Slo_addy,2018-06-06 16:42:23,Yes yes yes! Panic At The Disco is performing at the WWDC Bash #WWDC #WWDC2018 #panicatthedisco https://t.co/BpZG3PSVwg
-1004402685771014144,elorz007,2018-06-06 16:40:35,Notable change on this year's #wwdc: the videos finally work with chrome!
-1004402674064936966,miss_psyduck,2018-06-06 16:40:33,Panic at the disco is playing at #WWDC I’m so happy omg
-1004402563096117248,ZMYaro,2018-06-06 16:40:06,"I recognize my #WWDC comments the other day were largely criticism.  I do definitely want to praise adding a system-wide dark theme that is respected by all their apps.  As much as that should not be revolutionary, no other mainstream platforms have that.
+https://t.co/miCqfwKTtg
 
-#WWDC18 #WWDC2018"
-1004402133452537856,davidy4ng,2018-06-06 16:38:24,Rumour has it... @PanicAtTheDisco will be in San Jose tomorrow for #WWDC ! 🤘🤘🤘
-1004401943379435521,spencerpugh_,2018-06-06 16:37:38,"Many of you may know how much of an Apple Sheep/Nerd I am. So, I’m happy to announce that, yes, I have downloaded the iOS 12 Beta. And I love ❤️ Send me a dm if you want to know how to get it!
-.
-.
-.
-.
-.
-#ios12 #apple #ios #iphone #wwdc #wwdc2018 #iph… https://t.co/Rkkct54ZGv https://t.co/1u5XAxEkrB"
-1004401276258578432,shah_nitav,2018-06-06 16:34:59,iOS 12 looks promising #WWDC
-1004400094584754181,TechAcuteCom,2018-06-06 16:30:18,"3 New #iOS12TH Features Revealed by Apple at #WWDC
-https://t.co/sFsOtLd2pl https://t.co/dOxPf7Vizy"
-1004400006273437696,parisba,2018-06-06 16:29:57,"⭐️ Hi #WWCC18! @desplesda, @the_mcjones, and I wrote a really good #SwiftLang book! ⭐️ Check it out? It covers Swift 4.x+! https://t.co/l35PixT8DK #WWDC #AppleDev #Swift #iOSdev https://t.co/SaXKqfO77L"
-1004399729575432193,Ruprect,2018-06-06 16:28:51,My daughter is now mocking me because I passed on attending #WWDC and Panic! At The Disco is playing the bash.
-1004399406202974208,bmichaelgroff,2018-06-06 16:27:33,"How do you prefer to unlock your #iPhone?
+#ios #geek #deals #tech #amazon #home #gifts #diy #design #style #fashion #wwdc #WWDC18 #WWDC2018 #men #women #dev #iphonex https://t.co/0X9mEBbyWD", Lowest Price Apple iPhone 6 Unlocked GSM for 170     ios geek deals tech amazon home gifts diy design style fashion wwdc WWDC18 WWDC2018 men women dev iphonex  
+1004438232367394816,mootpointer,2018-06-06 19:01:50,"I loved @laurenstrehlow’s talk on Quality. Couldn’t help but have this going in my head. https://t.co/BZkiY4w3wx
 
-#Apple #apple #app #phone #tech #ios #WWDC #WWDC18"
-1004399262728314881,qcoding,2018-06-06 16:26:59,SO GLAD to stop all my (unsuccessful) attempts to get tests to run in parallel. Spawning simulators has been flaky. #WWDC
-1004399103319523329,saibalb79,2018-06-06 16:26:21,Get a preview of what’s in store for AR content creation with Adobe’s Project Aero – first seen at #WWDC – and our collaboration with Apple and Pixar: https://t.co/ArTRiMQe6k
-1004399068024467456,OneInABajilian,2018-06-06 16:26:13,I wish the WiFi worked 😐 #wwdc
-1004398485129621505,Sneakyness,2018-06-06 16:23:54,*extremely Herr Frau voice* SEND IN THE CLONES #wwdc
-1004398315646083072,stabby,2018-06-06 16:23:13,"PANIC AT THE DISCO is playing #WWDC #Bash tomorrow and I’m so excited to be the only one who cares! 
-It’ll be like high school all over again! 🙌🙌🙌🎉🎉🎉"
-1004397852330725376,daoenix,2018-06-06 16:21:23,"awe, isn’t that sad. #homekit #macos #wwdc #wwdc18 https://t.co/MjrWu4H4K8"
-1004397559526244352,iamkgn,2018-06-06 16:20:13,Just took at Bird scooter 🛴using direction on my Apple Watch ⌚️ to catch a train 🚊 to SF #wwdc
-1004397056092336130,tokbox,2018-06-06 16:18:13,"Turns out we don't have quite the same budget as the Lego team at #WWDC! But we are still going to talk about integrating #WebRTC #LiveVideo with Apple's #Swift, #iOS and #ARkit at 10am Pacific TODAY: https://t.co/UBObYhWOXq  #iosdev https://t.co/1XAdJUHS81"
-1004396555317776386,daoenix,2018-06-06 16:16:14,what? you don’t say! #watchOS #wwdc #wwdc18 https://t.co/f2HE6nLerT
-1004396420093304834,qcoding,2018-06-06 16:15:41,Test order can now be randomized. This helps flush out inadvertent dependencies on shared state. #WWDC
-1004396175997333504,Cerniuk,2018-06-06 16:14:43,#wwdc #carplay session speaker created a new word “netivty” network connectivity. Cell netivity Love it!
-1004396075338219520,glhaynes,2018-06-06 16:14:19,If you’re sitting behind a guy in an OpenDoc t-shirt… you might be at #WWDC.
-1004396008720089088,qcoding,2018-06-06 16:14:03,"Smoke test subset is easier to manage, by setting things so new tests don’t get added to the subset. #WWDC"
-1004395785474097152,chillok,2018-06-06 16:13:10,I think that people assuming we’ll get lots of iPhone Apps on Mac will be pleasantly surprised that won’t be the case. #marzipan #wwdc
-1004395185688592384,clint015,2018-06-06 16:10:47,"Apple devs: I understand that your live demos and sample code is meant to be simple, but it’d better serve the whole industry if your sample code hinted at solving real problems rather than being trivial toys. #wwdc"
-1004394283367976960,johnhaney,2018-06-06 16:07:12,Excited for Panic! at the Disco at tomorrow’s #WWDC Bash!
-1004393994875437056,theboyellis,2018-06-06 16:06:03,"At this year’s #WWDC, #Apple demonstrated the death of #LEGO live on stage. And I’m not very happy about it: https://t.co/QSsvLOvTWH #AR"
-1004393840470458369,jpr602,2018-06-06 16:05:26,at #WWDC did they give any tips for getting your apple watch to show you the time
-1004393724556857345,BusinessFiction,2018-06-06 16:04:59,"At this year’s #WWDC, #Apple demonstrated the death of #LEGO live on stage. And I’m not very happy about it: https://t.co/QHBKWCONC9 #AR"
-1004393646399995905,qcoding,2018-06-06 16:04:40,"Code coverage: faster, smaller files. And now measures coverage of code in header files. #WWDC"
-1004393455756496897,meridiansw,2018-06-06 16:03:55,"#WWDC Live Sessions 
+(From one of my 7 month old son’s favourite records) #WWDC",I loved laurenstrehlows talk on Quality Couldnt help but have this going in my head    From one of my 7 month old sons favourite records WWDC
+1004436896146165760,donmcallister,2018-06-06 18:56:32,Bye San Jose and #WWDC and my old and new friends. Been a blast but time to head home.,Bye San Jose and WWDC and my old and new friends Been a blast but time to head home
+1004436710883618816,gtsifrikas,2018-06-06 18:55:48,The qualities of great design. Wow that was a very m well-crafted presentation! 👏 #WWDC,The qualities of great design Wow that was a very m wellcrafted presentation  WWDC
+1004436118752727040,solJKlein,2018-06-06 18:53:26,From the drive in for #WWDC. Shooting from a car sort of combines the worlds of sport and landscape photography. :) https://t.co/38FCTwxIRW https://t.co/sO7q155eAj,From the drive in for WWDC Shooting from a car sort of combines the worlds of sport and landscape photography     
+1004436069209657344,_ant_one,2018-06-06 18:53:15,Working on my Flutter app at the #WWDC labs. Kind of ironic. If you are near stop to said hi!. https://t.co/KG4KkwX75d,Working on my Flutter app at the WWDC labs Kind of ironic If you are near stop to said hi  
+1004435503968444416,PlutoVR,2018-06-06 18:51:00,Who's down in San Jose for #WWDC ? What topics or sessions have piqued your interest? https://t.co/x2JeNZr89x #technews #devs #vrforgood #wwdc2018,Who's down in San Jose for WWDC  What topics or sessions have piqued your interest   technews devs vrforgood wwdc2018
+1004434420764311552,Catfish_Man,2018-06-06 18:46:42,Heading over to Iguanas for burritos #wwdc,Heading over to Iguanas for burritos wwdc
+1004434129537196032,cassler,2018-06-06 18:45:32,#Apple has announced a beta of #MapKitJS to take on Google Maps web embeds. Now you can get directions to that store that closed four years ago in the browser! #wwdc,Apple has announced a beta of MapKitJS to take on Google Maps web embeds Now you can get directions to that store that closed four years ago in the browser wwdc
+1004433923403902976,timdgreen,2018-06-06 18:44:43,I didn’t realise you could combine effects. So cool! #wwdc #ios12 https://t.co/fCWPj0oFlW,I didnt realise you could combine effects So cool wwdc ios12  
+1004433763533819906,B60uk,2018-06-06 18:44:05,The latest B60 Daily Mobile News! https://t.co/pC4YJqEvQq #wwdc18 #wwdc,The latest B60 Daily Mobile News   wwdc18 wwdc
+1004433732294488064,StuFFmc,2018-06-06 18:43:57,Which lab or Apple engineer should I see for a question about the this keyboard on iOS? #wwdc,Which lab or Apple engineer should I see for a question about the this keyboard on iOS wwdc
+1004433530414247936,StuFFmc,2018-06-06 18:43:09,Is there a summary of the new APIs for privacy on iOS 12?! #wwdc,Is there a summary of the new APIs for privacy on iOS 12 wwdc
+1004433012237352960,iniitamo,2018-06-06 18:41:06,So this happened... I guess :). On Monday I picked up an Apple Design Award for our app BANDIMAL at WWDC 2018. Yay...? It truly is humbling to be awarded about the greatest honor in our industry. https://t.co/3yPd9je587 @Apple @YATATOY #wwdc #wwdc2018 #appledesignawards #bandimal https://t.co/e5wB2nYEIf,So this happened I guess  On Monday I picked up an Apple Design Award for our app BANDIMAL at WWDC 2018 Yay It truly is humbling to be awarded about the greatest honor in our industry   Apple YATATOY wwdc wwdc2018 appledesignawards bandimal  
+1004432748260577280,designfeast,2018-06-06 18:40:03,“What #designers need to know about #Apple’s #WWDC announcements” https://t.co/2gHAkOTIqo by @JimMcCauley. #Tech ᔥ @Tom_May | 📷: Josh Edelson https://t.co/Me69PzqZyI,What designers need to know about Apples WWDC announcements   by JimMcCauley Tech  TomMay   Josh Edelson  
+1004432497151655936,StuFFmc,2018-06-06 18:39:03,I need to go to a Dokumentation Lab.  They are confusing me ;) e.g. what’s new here?! https://t.co/JRWPxz6krr  #wwdc,I need to go to a Dokumentation Lab  They are confusing me  eg whats new here    wwdc
+1004431425213325312,bontouch,2018-06-06 18:34:47,"One of the highlights at this year’s #WWDC is the AR hands-on area. Not sure anyone but Apple’s designers have these huge wooden tables at home, but lots of fun for sure. 😅🏆 https://t.co/HccjaTJAIG",One of the highlights at this years WWDC is the AR handson area Not sure anyone but Apples designers have these huge wooden tables at home but lots of fun for sure   
+1004431332993220608,StuFFmc,2018-06-06 18:34:25,"This is good news, people. #wwdc #CarPlay. https://t.co/yvMYnuHvjI https://t.co/QZXh8mKm4r",This is good news people wwdc CarPlay    
+1004431007821361153,jerols,2018-06-06 18:33:08,"Loved @samrosenthal's quote in @laurenstrehlow's #wwdc talk, summarized: being told isn't as much fun as discovering something for yourself.
 
-https://t.co/ad7NSVg6r1"
-1004393056630497280,julienbodet,2018-06-06 16:02:20,Does someone know if a MDM configuration profile prevent installing iOS 12 developer beta? #WWDC #WWDC18 @AppleSupport
-1004392977475801089,danabelow,2018-06-06 16:02:01,15/44 Where is the #world taking us? How will we #live? Here's our visible migration to a #Digital #First #Earth https://t.co/ELJZQdczND #ecommerce #innovation #Econsumption #Apple #WWDC https://t.co/zLZ58JNmhM
-1004392841974464513,matthgamble,2018-06-06 16:01:28,"Attention widget developers! I'll be in the Notifications Lab today at 4 and tomorrow at 9 (ish) to answer any of your Today View extension questions! Come by and say hi!
-#WWDC #WWDC18 #widgets #todayview #extensions"
-1004392796118085633,GizMeek,2018-06-06 16:01:17,"Wassup guys! 😁
-An exciting new is here, iOS 12 will be rolling out soon!
-are you on the list? 🙄
-https://t.co/vpDuj4o9P9
+Context was learning in games but applies to apps too. Throwing up a bunch of tooltips at the beginning is neither memorable or enjoyable",Loved samrosenthal's quote in laurenstrehlow's wwdc talk summarized being told isn't as much fun as discovering something for yourself  Context was learning in games but applies to apps too Throwing up a bunch of tooltips at the beginning is neither memorable or enjoyable
+1004431004235325440,StuFFmc,2018-06-06 18:33:07,"iOS 12, macOS 10.12, you know, kind of the same right? ;-) #wwdc https://t.co/O9Qhtu9apE",iOS 12 macOS 1012 you know kind of the same right  wwdc  
+1004429127154204672,mootpointer,2018-06-06 18:25:39,Word up to @themikestern dropping the jazz knowledge. I have a question: is “cool” different to “the cool”? #WWDC https://t.co/Ti37KKHFa9,Word up to themikestern dropping the jazz knowledge I have a question is cool different to the cool WWDC  
+1004428865672900609,bontouch,2018-06-06 18:24:37,This morning we also enjoyed a great Women@WWDC breakfast featuring terrific panel discussions with female #WWDC scholarship winners from all over the world. https://t.co/ZSBMNlbH3E,This morning we also enjoyed a great WomenWWDC breakfast featuring terrific panel discussions with female WWDC scholarship winners from all over the world  
+1004428854788669441,jerols,2018-06-06 18:24:35,"Just like cues like cleanliness and decor of a butcher shop instill trust that the food is quality, ""screenshots on the App Store and how you respond to customer reviews all communicates the quality of your app or game"" @laurenstrehlow #wwdc",Just like cues like cleanliness and decor of a butcher shop instill trust that the food is quality screenshots on the App Store and how you respond to customer reviews all communicates the quality of your app or game laurenstrehlow wwdc
+1004428681740148736,virtudude,2018-06-06 18:23:53,"I might be a little biased because @10percent is featured in the session, but Shortcuts on Siri Watch Face is one of the most exciting features announced this year. It’s way more powerful than what was highlighted in the keynote. #wwdc",I might be a little biased because 10percent is featured in the session but Shortcuts on Siri Watch Face is one of the most exciting features announced this year Its way more powerful than what was highlighted in the keynote wwdc
+1004427858188566528,i_am_fabs,2018-06-06 18:20:37,"Twitter: ""Shit."" 
 
-#gizmeek #WWDC2018 #WWDC18 #WWDC #Apple #iOS #iOS12 #launch #iPhoneX #iPhone8Plus #Animoji #Siri #FaceTime #dnd #tech #UPDATE #LatestNews #launch #USA #UK"
-1004392436716560385,geoffduncan,2018-06-06 15:59:52,"Well, thanks to #WWDC this week, one of my clients has set up a meeting with me to talk about sunsetting their macOS products."
-1004391917159714816,llepen,2018-06-06 15:57:48,While Tech folks are busy checking the new trends at #WWDC and #COMPUTEX I am playing with my Hello Kitty phone in office #thuglife https://t.co/KBks444yKf
-1004391886302277637,matthgamble,2018-06-06 15:57:41,"Also, @micampe will deep dive into Using Grouped Notifications today at 3 in Hall 3. Come learn how to take full advantage of this great feature!
-#WWDC #WWDC18 #notifications"
-1004391442540707840,uffel,2018-06-06 15:55:55,Snagged this slick @halidecamera pin from @sandofsky who politely answered my not quite sober questions after @thetalkshow last night. Thanks dude! #WWDC https://t.co/iuKma3x9cc
-1004391283329138688,matthgamble,2018-06-06 15:55:17,"Don't miss @kritarthjain and @tejakondapalli talk about What’s New in User Notifications today at 2 in Hall 2! They've got a LOT of great new stuff to show you!
-#WWDC #WWDC18 #notifications"
-1004390915262185472,adamyanalunas,2018-06-06 15:53:49,"It’s pretty cute to see #wwdc couples walking around, holding hands. Longest, most expensive, biggest nerd date I can imagine."
-1004390834110914560,BenDiFrancesco,2018-06-06 15:53:30,"The people have spoken! Well...7 people have spoken. I'll break the tie: next year Microsoft will kick off #WWDC by buying Stack Overflow. You heard it hear first, folks. https://t.co/OQBSKhMdsP"
-1004390296665362432,kuba_suder,2018-06-06 15:51:22,"Some info on rendering HTML on ⌚️ (#wwdc session 239)
+#wwdc #wwdc18 #analytics 
 
-1) Ignores web fonts
-2) Renders at 📱 screen width, use meta disabled-adaptations to use real width in queries
-3) Automatically uses Reader mode in articles
-4) Full screen UI for select, input tel/date (aria-label as title)"
-1004388644717723649,baydr,2018-06-06 15:44:48,"Here’s my take on some of the #Apple announcements from #WWDC this week:
+https://t.co/NnnMVh3Mzt https://t.co/DYzYkegHXm",Twitter Shit   wwdc wwdc18 analytics      
+1004427558899757056,steve_kuchta,2018-06-06 18:19:26,Really loving all the new touchbar features introduced at #WWDC.,Really loving all the new touchbar features introduced at WWDC
+1004427419749625856,MGS_88,2018-06-06 18:18:52,"IBM vs Apple in 1992
+#Windows #Macintosh 
+#IBM #Apple #WWDC18 #wwdc #Computex2018 #computex https://t.co/MKGhoBFRo8",IBM vs Apple in 1992 Windows Macintosh  IBM Apple WWDC18 wwdc Computex2018 computex  
+1004427418835275779,AlexKara15,2018-06-06 18:18:52,Core Location &amp; Mapping Labs are happening now until 12pm in Technology Lab 3 &amp; 5 - come say hi and bring questions! #WWDC,Core Location and Mapping Labs are happening now until 12pm in Technology Lab 3 and 5  come say hi and bring questions WWDC
+1004426612270649344,KennyDevotion,2018-06-06 18:15:40,No new #iPhone at #WWDC is #Apple's big mistake: https://t.co/X6OCppWbKf,No new iPhone at WWDC is Apple's big mistake  
+1004426407399886850,pj4533,2018-06-06 18:14:51,INTENSE definition file.  #wwdc,INTENSE definition file  wwdc
+1004425645206753280,roshan_mirajkar,2018-06-06 18:11:49,"Disappointed to not see more Siri improvements at #WWDC. There has to be more openness and third party integrations. This is where Alexa is winning, along with better natural language processing",Disappointed to not see more Siri improvements at WWDC There has to be more openness and third party integrations This is where Alexa is winning along with better natural language processing
+1004425555532541953,jwilker,2018-06-06 18:11:28,Hey #sciencefiction readers at #wwdc and @AltConference. I’ve got two copies of Space Rogues if anyone needs a summer read. Don’t wanna bring ‘me home :D https://t.co/czkKSD8z6a,Hey sciencefiction readers at wwdc and AltConference Ive got two copies of Space Rogues if anyone needs a summer read Dont wanna bring me home D  
+1004425031949012998,atomicbird,2018-06-06 18:09:23,“Most documents are stored in the cloud nowadays” #wwdc,Most documents are stored in the cloud nowadays wwdc
+1004424657523523584,corey_gwin,2018-06-06 18:07:54,"So, no new Macbook Pro announcement at #WWDC. I really would like to upgrade but I'm holding out. https://t.co/AvvkVlsEjY",So no new Macbook Pro announcement at WWDC I really would like to upgrade but I'm holding out  
+1004424636027686912,Catfish_Man,2018-06-06 18:07:49,"Me: ok I’ll wander by the Swift lab to see if I can help!
 
-https://t.co/TywvW8RGWD"
-1004387805857017856,AppCamp4Girls,2018-06-06 15:41:28,"It’s tonight! We are so excited to see you all! 
-・・・
-Huge thanks to James Dempsey and the Breakpoints for supporting and featuring us yet again at @wwdc_official this year! Get your tickets or donate at : https://t.co/9hQkFxqfr9
+Everyone: Codable? Codable? Codable?
 
-#wwdc #appcamp #appcamp4girls #donate #wwdcp… https://t.co/p3UB7G5hGG"
-1004387447239860224,pulscom,2018-06-06 15:40:02,"If you haven't heard the latest, learn all about the many incredible new #iOS12 features, including #Memoji, #groupFaceTime, #groupednotifications and so much more! 😍📱 https://t.co/4DwgzuvGwA #WWDC2018 #WWDC #iPhone #iOSupdate"
-1004387359503286272,routetowritten,2018-06-06 15:39:41,"We have so many cool things to #learn about and #participate in. Checking out #WWDC and #Tesla S
-shareholder #show as I’ve been a bit busy. Going to listen while I #organize a workspace."
-1004386704835403778,n8finn,2018-06-06 15:37:05,"Anotha one: “if we only wanted you to buy new hardware, we’d only have updates that support like, 6% of our users, not 81” - Joz #wwdc @daringfireball 🔥🔥🔥🔥 awesome conversation"
-1004386593023582208,XmasRights,2018-06-06 15:36:39,"Good Morning #WWDC
-How we all doing?"
-1004385843216203776,allonsykraken,2018-06-06 15:33:40,"To all of my friends &amp; the people who wanted to meet me at #WWDC  this week:
+Me: *hides behind @itaiferber and @millenomi*
 
-I'm sorry I haven't been there. I really want to see all of y'all but something personal happened this week that I'm really struggling with. 
+#wwdc",Me ok Ill wander by the Swift lab to see if I can help  Everyone Codable Codable Codable  Me hides behind itaiferber and millenomi  wwdc
+1004424367185498112,BackeliteAgency,2018-06-06 18:06:45,"A lot of people at the ""Qualities of Great Design"" talk at #WWDC right now. And we're here too. #apple https://t.co/5RtvWWm8f1",A lot of people at the Qualities of Great Design talk at WWDC right now And we're here too apple  
+1004424152705523713,jerols,2018-06-06 18:05:53,Great job @gravicle &amp; @ayanonagon — loved the Siri Shortcuts session. Can't wait to use these APIs! #wwdc,Great job gravicle and ayanonagon  loved the Siri Shortcuts session Can't wait to use these APIs wwdc
+1004423973239689216,baazus,2018-06-06 18:05:11,"Apple revealed it’s iOS12 with new features and increased privacy settings. https://t.co/FrK7ahkYeY 
 
-I promise I'm not ignoring y'all."
-1004385392269725707,benfearnley,2018-06-06 15:31:52,We’ve got another great UIKit lab on today at 11am where our performance experts will be on deck to help you tune up your apps! #wwdc
-1004385289693888512,blackpixel,2018-06-06 15:31:28,"If your team, big or small, is looking for help getting your apps ready for iOS 12, macOS Mojave, or for any other reason, reach out!
+#WWDC #apple #iOS #iOS12",Apple revealed its iOS12 with new features and increased privacy settings     WWDC apple iOS iOS12
+1004422812499697664,VusionVR,2018-06-06 18:00:34,MarTech Today believes #Apple’s new version of #ARKit could be a game-changer for the #augmentedreality industry: https://t.co/wzObsuXE5y #WWDC,MarTech Today believes Apples new version of ARKit could be a gamechanger for the augmentedreality industry   WWDC
+1004422669830258689,jonhutch,2018-06-06 18:00:00,"From @natjlevy on @geekwire ""This is a huge improvement over what #Siri could do before""
 
-DM’s are open, and we have team members in San Jose this week. #WWDC #WWDC18"
-1004385210170052609,n8finn,2018-06-06 15:31:09,"“Which is about the craziest thinking: We’re gonna give you a shitty experience, so you go out and buy our new product?” - Joz on planned obsolescence conspiracy theories #wwdc @daringfireball 🔥"
-1004385138384494595,cagrimmett,2018-06-06 15:30:52,"One thing I didn’t catch at #WWDC - Where are the wireless charging pads for AirPods, Apple Watch, and iPhone X?"
-1004384961040928768,MNI_Media,2018-06-06 15:30:09,What actually matters at @Apple's #WWDC keynote. https://t.co/B5xVAYttm2 https://t.co/ptM55Ff2cy
-1004384956359905280,qcoding,2018-06-06 15:30:08,Looking forward to What’s New in Testing to see if there’s anything beyond what we learned already.  #WWDC
-1004384924214943744,PCCanadacom,2018-06-06 15:30:01,"#WWDC: No new hardware, but Apple’s platform advantage grows: https://t.co/Pyo99yTPiI via @computerworld #AppleNews"
-1004384923497590786,socialmediaweek,2018-06-06 15:30:00,4 Key Takeaways From Apple’s 2018 WWDC https://t.co/SLrFkCK6Yx #WWDC2018 #WWDC #WWDC18 https://t.co/gGhWNA7hpo
-1004384779750567937,ExplodingPhone,2018-06-06 15:29:26,"#WWDC thoughts from the @ExplodingPhone pizza with @tim_cook party:
-Like:
-iOS12 optimisations for more performance
-Possibility of iOS apps being run as OS X apps
-Jury out:
-AR file format USDZ
-Siri shortcuts
-Possibly personally disturbing:
-Personal usage data... https://t.co/rMNCAODSUD"
-1004384416368603138,OgreSwamp,2018-06-06 15:28:00,"Hey, fellow #WWDC runners. Found Mitsubisi car keys in my bag. I’m going to head them to security after I’m back from the hotel but if you lost, or know someone who lost key - ping me. Please retweet. #nikerunwwdc #WWDC18 #wwdcrun"
-1004384142572716037,youtube_astv,2018-06-06 15:26:54,"iOS 12: Everything You Need To Know https://t.co/M1JCVtV6bt via @YouTube
+#Apple @_HairForceOne #WWDC18 #iOS #wwdc #ios12 https://t.co/vD4TgPpAow",From natjlevy on geekwire This is a huge improvement over what Siri could do before  Apple HairForceOne WWDC18 iOS wwdc ios12  
+1004422428204961792,TechValor,2018-06-06 17:59:02,"Tonight on Wine Wednesday we GOTTA chat about #WWDC, #Huawei #Facebook and much much more!
+@djeze416 @Scrumptyous1 @EmilyDBakerESQ 
+https://t.co/UyPSlrCFLm https://t.co/JqqT8rNc2A",Tonight on Wine Wednesday we GOTTA chat about WWDC Huawei Facebook and much much more djeze416 Scrumptyous1 EmilyDBakerESQ     
+1004421418140856320,patterson_home,2018-06-06 17:55:01,The IBM Workshop Day is underway in the Willow Glen rooms in the Marriott. Bring you laptop and get started now with Watson for #CoreML. #Altconf #wwdc https://t.co/v2FmOpiVNR,The IBM Workshop Day is underway in the Willow Glen rooms in the Marriott Bring you laptop and get started now with Watson for CoreML Altconf wwdc  
+1004420299675389952,pmcg,2018-06-06 17:50:35,Transmit! at the disco #WWDC,Transmit at the disco WWDC
+1004419575772078080,che1404,2018-06-06 17:47:42,#wwdc Visit 1 Infinite Loop ✅ https://t.co/Dp9u6xtLkO https://t.co/Tv756Z4xCs,wwdc Visit 1 Infinite Loop     
+1004419568805269505,che1404,2018-06-06 17:47:41,#wwdc Visit Apple Park ✅ https://t.co/jugCsqYTKD https://t.co/fp70tztbFH,wwdc Visit Apple Park     
+1004419432951746561,thecomputerclan,2018-06-06 17:47:08,"Krazy Ken watches the #WWDC 2018 keynote. Were his bets right? Enjoy the commentary super-cut…
 
-New video out!
-This video is about #iOS12 from #wwdc18 by #Apple.
+WATCH: https://t.co/stYvDWtDot https://t.co/Sct13CAA1N",Krazy Ken watches the WWDC 2018 keynote Were his bets right Enjoy the commentary supercut  WATCH    
+1004419152323469313,Archimage,2018-06-06 17:46:01,Need to catch up on #WWDC sessions I missed.,Need to catch up on WWDC sessions I missed
+1004418493142503425,disruptivedean,2018-06-06 17:43:24,"Unless I missed it, there were various new additions to #FaceTime and #iMessage in #iOS12 announced at @Apple #WWDC... but no mention of RCS.
 
-Hope you enjoy the video!
-.
-.
-.
-#youtube #apple #wwdc #ios12 #everythingyouneedtoknow"
-1004383595761262592,klinquist,2018-06-06 15:24:44,“Americans love queues” -Overheard at #wwdc https://t.co/WhzcuOaxRu
-1004383300679499776,DigitalBodies,2018-06-06 15:23:34,#Apple's #Lego #AR Experience at #WWDC is amazing    #AugmentedReality #WWDC2018 @Lego_Group @Lego_Education   #http://bit.ly/2JmwLD2 via @digitalbodies
-1004383205003149314,MacVoices,2018-06-06 15:23:11,"On @MacVoices: #WWDC #AltConf2018 - @MacPaw CEO @kosovan on 10 Years, Setapp, and Gemini Photos https://t.co/lwfYJstUSO https://t.co/xW7XhVyits"
-1004383130298433536,chuckjoiner,2018-06-06 15:22:53,"On @MacVoices: #WWDC #AltConf2018 - @MacPaw CEO @kosovan on 10 Years, Setapp, and Gemini Photos https://t.co/qQKYkxhqL0 https://t.co/XYIp5gkEgX"
-1004383044034269184,CoastalCIC,2018-06-06 15:22:32,"Are you team Apple or Android? Either way what Apple has announced with their new update is worth checking out. Read all about the 21 game-changing announcements Apple made at its biggest conference of the year. #wwdc #techinnovation 
-https://t.co/zVYm3HFe7C via @businessinsider"
-1004382617775423488,YevP,2018-06-06 15:20:51,"If any of the podcasting folks I know are in town for #WWDC and wanna come by the Backblaze office, let me know!"
-1004381938566623232,dklimkin,2018-06-06 15:18:09,Awesome morning run with #nikerunningclub #nrc. Thanks everyone! #WWDC18 #dubdub #WWDC https://t.co/GypjhKt4cT
-1004381913598058497,davidy4ng,2018-06-06 15:18:03,#nike #run at #wwdc ! Great experience ! #apple… https://t.co/8HoGTVCm4c
-1004381884040835072,iCalvin,2018-06-06 15:17:56,Think I’m gonna switch things up a bit and spend the day hanging out in the labs. Gotta make sure to get everything I can out of #WWDC
-1004381872498135041,SlifestyleNYC,2018-06-06 15:17:53,"iOS 12 is in beta testers hands but some still think Android is better. 
+No surprises there, then. #ZombieTech",Unless I missed it there were various new additions to FaceTime and iMessage in iOS12 announced at Apple WWDC but no mention of RCS  No surprises there then ZombieTech
+1004417955675897856,mcdevins,2018-06-06 17:41:16,Victory! #swiftshot #arkit2 #wwdc https://t.co/QgLptn3m9i,Victory swiftshot arkit2 wwdc  
+1004417594252845056,MichaelTheGeek,2018-06-06 17:39:50,Apple Executive Greg Joswiak Dismisses Planned Obsolescence as 'Craziest Thinking in the World'      #WWDC,Apple Executive Greg Joswiak Dismisses Planned Obsolescence as 'Craziest Thinking in the World'      WWDC
+1004417590742192128,vibalnyc,2018-06-06 17:39:49,Whaaat? Just a little collab with Apple and Pixar. NBD. Get a preview of what’s in store for AR content creation with Adobe’s Project Aero – first seen at #WWDC – and our collaboration with Apple and Pixar: https://t.co/ACZmNg0jQx https://t.co/gJ1ZOcefpF,Whaaat Just a little collab with Apple and Pixar NBD Get a preview of whats in store for AR content creation with Adobes Project Aero  first seen at WWDC  and our collaboration with Apple and Pixar    
+1004417508751826947,HomepodSleeves,2018-06-06 17:39:29,"Ice Cream 🍨 Wednesday at @LittleManDenver 
+Bring your HomePod™ to life! 
+Any photo, any design, any pattern. 
+@HomePodSleeves
 
-https://t.co/nD4lzmA0h3
+⭕️❤️
 
-#tech #ios12 #ios #wwdc #apple #iphone #tech"
-1004380352373317633,hellorousseau,2018-06-06 15:11:51,"🍎📰🙌🏻
-What was your favorite announcement at #WWDC18?!
-#Memoji? #WalkieTalkie? #ARKit2? 👀
-(📷: @reneritchie)
-#iMore #iMoregram #Apple #WWDC https://t.co/Ro8oRTicHp"
-1004379938164600834,kbalderston,2018-06-06 15:10:12,"Cool things in store for AR content creation, Adobe’s collaboration with Apple and Pixar, previewed this week at #WWDC https://t.co/VrX4cheVmV"
-1004379864621879298,adamjustice,2018-06-06 15:09:54,Nice morning run at #wwdc with #nikerunningclub… https://t.co/c1aRgtHhSG
-1004379467467444225,PCDUE,2018-06-06 15:08:20,"Social media privacy dominates Apple's recent #WWDC conference, with iOS and MacOS both getting blocking tools https://t.co/3ybN1QCrws https://t.co/d0cPV0Menh"
-1004379233571913728,philpauleo,2018-06-06 15:07:24,"The end of #OpenGL support, other updates #Apple didn’t share at the #WWDC keynote https://t.co/qJUWM7rRpk"
-1004378691093319680,HighTechDad,2018-06-06 15:05:15,"Yes, I published this after the last #WWDC, but most of the points are still valid! &gt; 20+ Tips When Installing Apple iOS &amp; macOS Beta Software #tips #iOS #macOS #watchOS  https://t.co/dqfzvWbyeB https://t.co/oOsnblYfms"
-1004378681525952513,BizTong,2018-06-06 15:05:12,I want to be #WWDC next year.
-1004378654019899392,kaspersky,2018-06-06 15:05:06,"Social media privacy dominates Apple's recent #WWDC conference, with iOS and MacOS both getting blocking tools https://t.co/lmUkflnx1C https://t.co/puEEPxhlrE"
-1004378219607351296,FedeTrimboli,2018-06-06 15:03:22,Made it 😊 #WWDC https://t.co/PdUvtOyrd2
+#powerful #pink #WWDC #siri #shortcuts #icecream #littleman #apple #Sound #iOS #OSX #applefan #applemusic #AppleTV #denver #colorado https://t.co/6PIIMpoMfm",Ice Cream  Wednesday at LittleManDenver  Bring your HomePod to life  Any photo any design any pattern  HomePodSleeves    powerful pink WWDC siri shortcuts icecream littleman apple Sound iOS OSX applefan applemusic AppleTV denver colorado  
+1004416626618335234,shalomormsby,2018-06-06 17:35:59,"The AR tech that Apple and @Adobe demoed at #WWDC has tons of potential for those who need assistive technology. Delighted that AR tech is finally mainstreaming, and eager to apply it for the cause. Check out Project Aero: https://t.co/7kNwnEKH2N
+#AR #assistivetechnology #bionics",The AR tech that Apple and Adobe demoed at WWDC has tons of potential for those who need assistive technology Delighted that AR tech is finally mainstreaming and eager to apply it for the cause Check out Project Aero   AR assistivetechnology bionics
+1004415242955132929,FollowAurelius,2018-06-06 17:30:29,"From the perspective of consumers, Apple’s entrance into the AI democratization game should be a positive – and not just for those invested into Apple’s ecosystem. https://t.co/XnvE3AXF13 via @WIRED #AI #ArtificialIntelligence #Apple #WWDC",From the perspective of consumers Apples entrance into the AI democratization game should be a positive  and not just for those invested into Apples ecosystem   via WIRED AI ArtificialIntelligence Apple WWDC
+1004415168334499840,ultimatedeath11,2018-06-06 17:30:11,So I know I wasn't at #WWDC but did anyone that was there LIKE the changes or what they announced? I felt kinda underwhelmed. Let me know,So I know I wasn't at WWDC but did anyone that was there LIKE the changes or what they announced I felt kinda underwhelmed Let me know
+1004415147266531328,bmichaelgroff,2018-06-06 17:30:06,"I like it.
+
+#apple #Apple #WWDC #WWDC18 #IOS #iOS12 #iOS11 #iosbeta https://t.co/WFCWWXpSVj",I like it  apple Apple WWDC WWDC18 IOS iOS12 iOS11 iosbeta  
+1004414902121816064,lostincode,2018-06-06 17:29:08,Siri is about to level up big time 🤘 #wwdc,Siri is about to level up big time  wwdc
+1004413756581900288,YouthAppps,2018-06-06 17:24:35,Calzy 3 iOS App - India's First iOS App to Win an Apple Design Award. https://t.co/hvmSSStiE5 #Calzy #Calculator #CalculatorApp #iOSApp #AppleDesignAward #WWDC #YouthApps @calzy3 https://t.co/s2nZQkYaHq,Calzy 3 iOS App  India's First iOS App to Win an Apple Design Award   Calzy Calculator CalculatorApp iOSApp AppleDesignAward WWDC YouthApps calzy3  
+1004413381170917376,usnews,2018-06-06 17:23:05,#WWDC has given analysts a better idea of what to expect from @Apple. https://t.co/DNGHxvrmxv $AAPL,WWDC has given analysts a better idea of what to expect from Apple   AAPL
+1004412663403704320,StuFFmc,2018-06-06 17:20:14,"Except your French is Canadian French, @Apple, not french from France or Belgium :( killing me. #punctuation #wwdc",Except your French is Canadian French Apple not french from France or Belgium  killing me punctuation wwdc
+1004412436944830464,smeidu,2018-06-06 17:19:20,Just had a 30min session with Apple‘s Accessibility team at #WWDC. Super helpful feedback. #A11y #Design #AtScale,Just had a 30min session with Apples Accessibility team at WWDC Super helpful feedback A11y Design AtScale
+1004412354937774081,McCarron,2018-06-06 17:19:01,"Why this #WWDC SiriKit presenter writing a ""soup out of stock error message"" didn't go with ""No Soup For You"" is a huge missed opportunity.",Why this WWDC SiriKit presenter writing a soup out of stock error message didn't go with No Soup For You is a huge missed opportunity
+1004411788908220417,YATATOY,2018-06-06 17:16:46,"We are still jumping around and can’t settle :) Thank you again so much @AppStore for your support and this incredible Award!!!
+
+https://t.co/QSoCQHfAiI  
+
+#WWDC2018 #WWDC https://t.co/JfULCRf8n7",We are still jumping around and cant settle  Thank you again so much AppStore for your support and this incredible Award       WWDC2018 WWDC  
+1004411769584939008,McCarron,2018-06-06 17:16:41,Appears I am seeing Panic! At The Disco at #wwdc… https://t.co/Ihi6XT5liN,Appears I am seeing Panic At The Disco at wwdc  
+1004411594896441345,philipmcdermott,2018-06-06 17:15:59,Oh god is it Eddy Cue? #wwdc https://t.co/UUYxlvQ5Rs,Oh god is it Eddy Cue wwdc  
+1004411525820395520,russnettle,2018-06-06 17:15:43,"Hats off to the Siri team, the Siri shortcuts look really well implemented. Rather than having to fit into a limited category, any app can now provide I Siri responses with really quick to use auto generated intent subclasses 🤙#wwdc #iOS dev #ios12",Hats off to the Siri team the Siri shortcuts look really well implemented Rather than having to fit into a limited category any app can now provide I Siri responses with really quick to use auto generated intent subclasses wwdc iOS dev ios12
+1004410984251973632,patterson_home,2018-06-06 17:13:34,"Attending #altconf or #wwdc? Don't miss the @AltConference lab ""Build a virtual assistant into your iOS apps"" starting at 10. In lab room 2",Attending altconf or wwdc Don't miss the AltConference lab Build a virtual assistant into your iOS apps starting at 10 In lab room 2
+1004410928958279680,horiuni,2018-06-06 17:13:21,Panic! At The Disco is playing at the #WWDC Bash! 😍 https://t.co/Ui6g135T38,Panic At The Disco is playing at the WWDC Bash   
+1004409186522812416,CBCompton1,2018-06-06 17:06:25,"The new #Kitura macOS App makes getting started with serverside #Swift quick and easy. Nice work @alex_wishart!  💯
+
+#WWDC18 #WWDC #WWDC2018 #SwiftLang https://t.co/zbtr3lePH1",The new Kitura macOS App makes getting started with serverside Swift quick and easy Nice work alexwishart    WWDC18 WWDC WWDC2018 SwiftLang  
+1004408345980297216,AppDemoVideos,2018-06-06 17:03:05,"Apple's iOS App Store Will Top $100B Paid Out to Developers This Week, Ahead of 10th Anniversary in July: https://t.co/bkIgI0y6BQ #wwdc #appdev",Apple's iOS App Store Will Top 100B Paid Out to Developers This Week Ahead of 10th Anniversary in July   wwdc appdev
+1004407755179003904,carlowahlstedt,2018-06-06 17:00:44,One of the best things I've seen come out of a conference this year. https://t.co/XqV2ZPyVdZ #wwdc,One of the best things I've seen come out of a conference this year   wwdc
+1004407547451904000,virakri,2018-06-06 16:59:54,"Here is some random ideas of using #EyesTracking in #ARKit2 telling where on screens users are looking at... And here is the prototype. 
+
+#ARKit #iOS12 #iOS #Swift #WWDC #WWDC18 #Apple #ARCore #AugmentedReality #iPhoneX #WeAreProlific https://t.co/IWxYvfDLo3",Here is some random ideas of using EyesTracking in ARKit2 telling where on screens users are looking at And here is the prototype   ARKit iOS12 iOS Swift WWDC WWDC18 Apple ARCore AugmentedReality iPhoneX WeAreProlific  
+1004407536664002561,_ivancr,2018-06-06 16:59:52,#WWDC week is intense. How intense? I thought it was Thursday and tomorrow I going home intense.,WWDC week is intense How intense I thought it was Thursday and tomorrow I going home intense
+1004407069791797248,thillsman,2018-06-06 16:58:01,About to see @gravicle talk about the new Siri Shortcuts awesomeness. #wwdc,About to see gravicle talk about the new Siri Shortcuts awesomeness wwdc
+1004406506517815298,2020Glen,2018-06-06 16:55:46,When the spotlight is gone only the your dark theme remains. #wwdc https://t.co/IT51yT8RbJ,When the spotlight is gone only the your dark theme remains wwdc  
