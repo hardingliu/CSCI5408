@@ -39,7 +39,6 @@ class SentimentAnalysis:
             for row in csv_reader:
                 for s in row:
                     sentences.append(s.rstrip())
-            # sentences.pop(0)
         lexicon_dict = self.load_lexicon()
         with open(self.output_file, 'w') as output_csv_file:
             csv_writer = csv.writer(output_csv_file)
