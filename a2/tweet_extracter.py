@@ -45,11 +45,10 @@ with open ('tweets.csv', 'w', encoding="utf-8") as outfile:
 		
 #data cleaning
 tweets = pandas.read_csv("tweets.csv", encoding="utf-8")
-tweets["text"]=tweets["text"].str.replace('"','')
-tweets["text"]=tweets["text"].str.replace('http[^\s]*',' ')
-tweets["text"]=tweets["text"].str.replace('[\n\r]',' ')
-tweets["text"]=tweets["text"].str.replace('&amp;','and')
-tweets["text"]=tweets["text"].str.replace('â€™','\'')
-tweets["text"]=tweets["text"].str.replace('[^a-zA-Z0-9\' ]','')
+tweets["clean_text"]=tweets["text"].str.replace('http[^\s]*',' ')
+tweets["clean_text"]=tweets["clean_text"].str.replace('[\n\r]',' ')
+tweets["clean_text"]=tweets["clean_text"].str.replace('&amp;','and')
+tweets["clean_text"]=tweets["clean_text"].str.replace('â€™','\'')
+tweets["clean_text"]=tweets["clean_text"].str.replace('[^a-zA-Z0-9\'\s]','')
 
-tweets["text"].to_csv('clean.csv', encoding="utf-8", index=False)
+tweets.to_csv('tweets.csv', encoding="utf-8", index=False)
