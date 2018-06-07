@@ -12,6 +12,8 @@ David Cui - B00788648
 
 **import_into_elasticsearch.py** - The python script to load data of sentiment analysis on Twitter data, and import the data into Elasticsearch.
 
+**batch_job.sh** - To run this script as background process, the user can add this script to cron. First, the user needs to type `crontab -e`, which will open the cron file for the user to edit. Then the user can just add this line `00 00 * * * ./batch_job.sh`. Finally, the user can just save the file, exit the editor, and the scirpt will be executed at 00:00 every day in every month.
+
 ## References
 The dataset for sentiment analysis comes from here:
 
