@@ -5,6 +5,10 @@ Zongming Liu - B00784897
 
 David Cui - B00788648
 
+## Setup on EC2 Ubuntu
+If you want to run the scripts on EC2 Ubuntu, you need to install the modules/libraries.
+Use this command: sudo python3 -m pip install ___module_name___
+
 ## Scripts
 **tweet_extracter.py** - The python script to collect data from Twitter. It saves the data to a csv file named tweets.csv
 
