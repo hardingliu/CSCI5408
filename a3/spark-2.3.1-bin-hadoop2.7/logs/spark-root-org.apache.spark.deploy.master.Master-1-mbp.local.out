@@ -1,0 +1,39 @@
+Spark Command: /Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home/jre/bin/java -cp /Users/zl/Workspace/5408/assignments/a3/spark-2.3.1-bin-hadoop2.7/conf/:/Users/zl/Workspace/5408/assignments/a3/spark-2.3.1-bin-hadoop2.7/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host mbp.local --port 7077 --webui-port 8080
+========================================
+2018-06-23 21:20:22 INFO  Master:2611 - Started daemon with process name: 49953@mbp.local
+2018-06-23 21:20:22 INFO  SignalUtils:54 - Registered signal handler for TERM
+2018-06-23 21:20:22 INFO  SignalUtils:54 - Registered signal handler for HUP
+2018-06-23 21:20:22 INFO  SignalUtils:54 - Registered signal handler for INT
+2018-06-23 21:20:22 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-06-23 21:20:23 INFO  SecurityManager:54 - Changing view acls to: root
+2018-06-23 21:20:23 INFO  SecurityManager:54 - Changing modify acls to: root
+2018-06-23 21:20:23 INFO  SecurityManager:54 - Changing view acls groups to: 
+2018-06-23 21:20:23 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2018-06-23 21:20:23 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(root); groups with view permissions: Set(); users  with modify permissions: Set(root); groups with modify permissions: Set()
+2018-06-23 21:20:23 INFO  Utils:54 - Successfully started service 'sparkMaster' on port 7077.
+2018-06-23 21:20:24 INFO  Master:54 - Starting Spark master at spark://mbp.local:7077
+2018-06-23 21:20:24 INFO  Master:54 - Running Spark version 2.3.1
+2018-06-23 21:20:24 INFO  log:192 - Logging initialized @2986ms
+2018-06-23 21:20:24 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2018-06-23 21:20:24 INFO  Server:414 - Started @3207ms
+2018-06-23 21:20:24 INFO  AbstractConnector:278 - Started ServerConnector@2304658c{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2018-06-23 21:20:24 INFO  Utils:54 - Successfully started service 'MasterUI' on port 8080.
+2018-06-23 21:20:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@34d77301{/app,null,AVAILABLE,@Spark}
+2018-06-23 21:20:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4b2288a1{/app/json,null,AVAILABLE,@Spark}
+2018-06-23 21:20:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@73775667{/,null,AVAILABLE,@Spark}
+2018-06-23 21:20:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4695ca4a{/json,null,AVAILABLE,@Spark}
+2018-06-23 21:20:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@19ad25b9{/static,null,AVAILABLE,@Spark}
+2018-06-23 21:20:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3e08135b{/app/kill,null,AVAILABLE,@Spark}
+2018-06-23 21:20:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4c1e5ac3{/driver/kill,null,AVAILABLE,@Spark}
+2018-06-23 21:20:24 INFO  MasterWebUI:54 - Bound MasterWebUI to 0.0.0.0, and started at http://192.168.2.37:8080
+2018-06-23 21:20:24 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2018-06-23 21:20:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@50720031{/,null,AVAILABLE}
+2018-06-23 21:20:24 INFO  AbstractConnector:278 - Started ServerConnector@2b225c16{HTTP/1.1,[http/1.1]}{mbp.local:6066}
+2018-06-23 21:20:24 INFO  Server:414 - Started @3642ms
+2018-06-23 21:20:24 INFO  Utils:54 - Successfully started service on port 6066.
+2018-06-23 21:20:24 INFO  StandaloneRestServer:54 - Started REST server for submitting applications on port 6066
+2018-06-23 21:20:25 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@ed957c7{/metrics/master/json,null,AVAILABLE,@Spark}
+2018-06-23 21:20:25 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@126460ac{/metrics/applications/json,null,AVAILABLE,@Spark}
+2018-06-23 21:20:25 INFO  Master:54 - I have been elected leader! New state: ALIVE
+2018-06-23 21:21:05 INFO  Master:54 - Registering worker 192.168.2.37:56156 with 4 cores, 7.0 GB RAM
+2018-06-23 21:32:36 ERROR Master:43 - RECEIVED SIGNAL TERM
