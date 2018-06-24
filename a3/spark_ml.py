@@ -1,3 +1,5 @@
+# Reference Dijana Kosmajac's code provided for A3
+
 import findspark
 findspark.init()
 
@@ -9,7 +11,7 @@ from pyspark.ml.feature import RegexTokenizer, StopWordsRemover, CountVectorizer
 from pyspark.ml.classification import LogisticRegression
 
 from pyspark.ml import Pipeline, PipelineModel
-from pyspark.ml.feature import OneHotEncoder, StringIndexer, VectorAssembler, IndexToString
+from pyspark.ml.feature import StringIndexer
 
 from pyspark.ml.evaluation import MulticlassClassificationEvaluator
 
@@ -31,7 +33,8 @@ schema = StructType([
     StructField("text", StringType(), True)
     ])
 
-df = spark.read.csv("testdata.manual.2009.06.14.csv", header=False, schema=schema)
+# http://help.sentiment140.com/for-students - training dataset source
+df = spark.read.csv("./training-data/testdata.manual.2009.06.14.csv", header=False, schema=schema)
 
 drop_list = ["id", "date", "query", "user"]
 df = df.select([column for column in df.columns if column not in drop_list])

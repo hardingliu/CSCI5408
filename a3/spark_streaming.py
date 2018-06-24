@@ -1,3 +1,5 @@
+# Reference Dijana Kosmajac's code provided for A3
+
 import sys
 import findspark
 findspark.init()
@@ -63,7 +65,7 @@ def do_something(time, rdd):
         finalDataFrame = spark.sql("SELECT prediction, text FROM tweets_prediction")
         finalDataFrame.coalesce(1).write.save(path='csv', format='csv', mode='append')
     except:
-        sys.exit(0)
+        pass
 
 
 # key part!
