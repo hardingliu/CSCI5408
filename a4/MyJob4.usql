@@ -1,0 +1,29 @@
+@input_data =
+    EXTRACT Tcs             int,
+            Main            string,
+            MidblockRoute   string,
+            Side1Route      string,
+            Side2Route      string,
+            ActivationDate  DateTime,
+            Latitude        double,
+            Longitude       double,
+            CountDate       DateTime,
+            VVolume         int,
+            PVolume         int
+    FROM "/a5/data.csv"
+    USING Extractors.Csv(skipFirstNRows:1);
+
+@rs0 = 
+    SELECT Tcs, CountDate.DayOfWeek.ToString("f") AS WeekDay, PVolume + VVolume AS TotalVolume
+    FROM @input_data;
+
+@rs1 = 
+    SELECT WeekDay, SUM(TotalVolume) AS SumOfTotalVolume
+    FROM @rs0
+    GROUP BY WeekDay
+    ORDER BY SumOfTotalVolume DESC
+    FETCH 7 ROWS;
+
+OUTPUT @rs1
+    TO "/output/output4.csv"
+    USING Outputters.Csv(outputHeader:true);

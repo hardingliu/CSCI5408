@@ -1,0 +1,27 @@
+@input_data =
+    EXTRACT Tcs             int,
+            Main            string,
+            MidblockRoute   string,
+            Side1Route      string,
+            Side2Route      string,
+            ActivationDate  DateTime,
+            Latitude        double,
+            Longitude       double,
+            CountDate       DateTime,
+            VVolume         int,
+            PVolume         int
+    FROM "/a5/data.csv"
+    USING Extractors.Csv(skipFirstNRows:1);
+
+@rs0 = 
+    SELECT Tcs, CountDate.Year AS Year, PVolume + VVolume AS TotalVolume
+    FROM @input_data;
+
+@rs1 = 
+    SELECT Year, SUM(TotalVolume) AS SumOfTotalVolume
+    FROM @rs0
+    GROUP BY Year;
+
+OUTPUT @rs1
+    TO "/output/output3.csv"
+    USING Outputters.Csv(outputHeader:true);
