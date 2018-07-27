@@ -16,7 +16,7 @@ def convert_target_to_num(target_data):
     return target_data.astype('int')
 
 #read training data and randomly select some
-train_set = pd.read_csv('train.txt', sep='\t', names = ['text','lang'], encoding='utf-8')
+train_set = pd.read_csv('data/train.txt', sep='\t', names = ['text','lang'], encoding='utf-8')
 selected_train_set = train_set.sample(n=1000)
 selected_train_set = selected_train_set.reset_index(drop=True)
 training_data = selected_train_set.values[:, 0]

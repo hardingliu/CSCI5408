@@ -20,8 +20,8 @@ def convert_target_to_num(target_data):
 
 
 if __name__ == "__main__":
-    training_file_path = 'data/train-dev/train.txt'
-    test_file_path = 'data/gold/test-gold.txt'
+    training_file_path = 'data/train.txt'
+    test_file_path = 'data/test-gold.txt'
 
     training_df = pd.read_csv(training_file_path, sep='\t', header=None, encoding='utf-8', quoting=csv.QUOTE_NONE)
     test_df = pd.read_csv(test_file_path, sep='\t', header=None, encoding='utf-8', quoting=csv.QUOTE_NONE)
