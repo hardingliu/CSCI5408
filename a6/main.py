@@ -25,12 +25,8 @@ def convert_target_to_num(target_data):
     return target_data.astype('int')
 
 # ref - http://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html
-def plot_confusion_matrix(cm, classes, cmap=plt.cm.Blues):
-    """
-    This function prints and plots the confusion matrix.
-    Normalization can be applied by setting `normalize=True`.
-    """
-    plt.imshow(cm, interpolation='nearest', cmap=cmap)
+def plot_confusion_matrix(cm, classes):
+    plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
     plt.title('Confusion matrix, without normalization')
     plt.colorbar()
     tick_marks = np.arange(len(classes))
