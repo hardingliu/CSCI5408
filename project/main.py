@@ -40,10 +40,10 @@ if __name__ == "__main__":
 
     hashing_tf = HashingTF(inputCol="words", outputCol="tf")
 
-    idf = IDF(inputCol="tf", outputCol="idf")
+    idf = IDF(inputCol="tf", outputCol="features")
 
     #------------------------------------------------------------------------------------------------------------------
-    selector = ChiSqSelector(featuresCol="idf", outputCol="features", labelCol="label")
+    # selector = ChiSqSelector(featuresCol="idf", outputCol="features", labelCol="label")
 
     layers = [10, 8, 5, 3]
     trainer = MultilayerPerceptronClassifier(featuresCol="selected_features", layers=layers, seed=4)
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     ovr = OneVsRest(classifier=svm)
     #------------------------------------------------------------------------------------------------------------------
 
-    pipeline = Pipeline(stages=[regex_tokenizer, hashing_tf, idf, selector, ovr])
+    pipeline = Pipeline(stages=[regex_tokenizer, hashing_tf, idf, ovr])
 
     model = pipeline.fit(training)
 
@@ -67,5 +67,7 @@ if __name__ == "__main__":
     predictionAndLabels = result.select("prediction", "label")
     evaluator = MulticlassClassificationEvaluator(metricName="accuracy")
     print("Test set accuracy = " + str(evaluator.evaluate(predictionAndLabels)))
+
+    model.write().overwrite().save("the-model")
 
     spark.stop()
