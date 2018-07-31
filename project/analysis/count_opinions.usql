@@ -1,0 +1,16 @@
+@data =
+    EXTRACT id                  int,
+            tweet               string,
+            opinion             int,
+            location            string
+    FROM "/project/output.tsv"
+    USING Extractors.Tsv(skipFirstNRows:1);
+
+@rs =
+    SELECT opinion, COUNT (*) AS count
+    FROM @data
+    GROUP BY opinion;
+
+OUTPUT @rs
+    TO "/project/opinion_count.tsv"
+    USING Outputters.Tsv(outputHeader:true);

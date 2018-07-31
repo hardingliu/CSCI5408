@@ -1,0 +1,27 @@
+@result =
+    EXTRACT opinion             float,
+            tweet               string
+    FROM "/project/result.tsv"
+    USING Extractors.Tsv(skipFirstNRows:0);
+
+@info =
+    EXTRACT id                  int,
+            tweet               string,
+            location            string
+    FROM "/project/info.tsv"
+    USING Extractors.Tsv(skipFirstNRows:0);
+
+@rs0 =
+    SELECT i.id, i.tweet, r.opinion, i.location
+    FROM @info AS i
+        JOIN
+            @result AS r
+        ON i.tweet == r.tweet;
+
+@rs1 = 
+    SELECT DISTINCT id, tweet, opinion, location
+    FROM @rs0;
+
+OUTPUT @rs1
+    TO "/project/output.tsv"
+    USING Outputters.Tsv(outputHeader:true);
